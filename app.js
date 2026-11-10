@@ -100,7 +100,7 @@ function openModule(module) {
   serviceFrame.src = module.url;
 
   externalLink.href = module.url;
-  frameFallback.hidden = false;
+  frameFallback.hidden = true;
 
   moduleGrid.parentElement.hidden = true;
   document.querySelector(".hero").hidden = true;

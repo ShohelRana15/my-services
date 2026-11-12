@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="SR Infinity Super App - All your digital services in one place.">
+  <title>SR Infinity Super App</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="scrim" id="scrim"></div>
+
+<div class="app">
+  <aside class="side" id="side">
+    <div class="logo">
+      <svg viewBox="0 0 100 50"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#18e0ff"/><stop offset=".5" stop-color="#2f7bff"/><stop offset="1" stop-color="#b43cf0"/></linearGradient></defs><path d="M50 25C40 5 6 5 6 25s34 20 44 0 44-20 44 0-34 20-44 0z" fill="none" stroke="url(#g)" stroke-width="9" stroke-linejoin="round"/></svg>
+      <b>SR Infinity</b><span>Super App</span>
+    </div>
+    <nav id="nav"></nav>
+    <div class="inst">
+      <div class="r"><em>🚀</em><div><b>Install App</b><p>Get the best experience!</p></div></div>
+      <button class="btn-p" data-install><i data-i="download"></i>Install Now</button>
+    </div>
+    <div class="copy">© 2026 SR Infinity<br>All Rights Reserved</div>
+  </aside>
+
+  <main>
+    <div class="top">
+      <button class="menu" id="menuBtn" aria-label="Menu"><i data-i="menu"></i></button>
+      <label class="search"><i data-i="search"></i><input id="search" placeholder="Search services..." autocomplete="off"></label>
+      <button class="ibtn" data-install><i data-i="download"></i><span>Install App</span></button>
+      <button class="tog" id="themeToggle" aria-label="Toggle theme"><i class="s" data-i="sun"></i><i class="m" data-i="moon"></i></button>
+      <div class="av" title="Profile">🧔</div>
+    </div>
+
+    <section class="hero">
+      <div>
+        <h4>Welcome Back! 👋</h4>
+        <h5 id="userName">Md.Jahangir Alam Sarker</h5>
+        <h1>SR Infinity <span>Super App</span></h1>
+        <p>Everything You Need. <b>One Super App.</b></p>
+      </div>
+      <div class="mock">
+        <div class="lap"><div><svg viewBox="0 0 100 50"><path d="M50 25C40 5 6 5 6 25s34 20 44 0 44-20 44 0-34 20-44 0z" fill="none" stroke="url(#g)" stroke-width="9"/></svg>SR Infinity</div></div>
+        <div class="pho"><div><svg viewBox="0 0 100 50"><path d="M50 25C40 5 6 5 6 25s34 20 44 0 44-20 44 0-34 20-44 0z" fill="none" stroke="url(#g)" stroke-width="9"/></svg>SR Infinity</div></div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-heading">
+        <h2><i data-i="grid"></i>My Services</h2>
+        <button id="viewAll">View All <i data-i="arrow"></i></button>
+      </div>
+      <div id="moduleGrid" class="module-grid"></div>
+    </section>
+
+    <section class="low">
+      <div class="box"><h3><i data-i="star"></i>App Features</h3>
+        <ul class="ft"><li><i>✓</i>One App, Multiple Services</li><li><i>✓</i>Install as PWA</li><li><i>✓</i>Offline Support</li><li><i>✓</i>Fast &amp; Secure</li><li><i>✓</i>Mobile Friendly</li></ul>
+      </div>
+      <div class="box one">
+        <div class="r"><div class="bars"><i style="height:24px"></i><i style="height:38px"></i><i style="height:48px"></i><i style="height:58px"></i></div><div><b>1 App</b><p>Unlimited Possibilities</p></div></div>
+        <svg class="inf" viewBox="0 0 100 50"><path d="M50 25C40 5 6 5 6 25s34 20 44 0 44-20 44 0-34 20-44 0z" fill="none" stroke="url(#g)" stroke-width="9"/></svg>
+        <button class="btn-p" id="exploreMore">Explore More <i data-i="arrow"></i></button>
+      </div>
+      <div class="box q">
+        <h3><i data-i="bolt"></i>Quick Actions</h3>
+        <button class="a" id="addService"><i data-i="grid"></i>Add<br>Service</button>
+        <button class="b" data-panel="settings"><i data-i="gear"></i>Settings</button>
+        <button class="c" data-panel="help"><i data-i="help"></i>Help</button>
+      </div>
+    </section>
+  </main>
+</div>
+
+<section id="appViewer" class="app-viewer" hidden>
+  <div class="viewer-header">
+    <button id="backButton">← Back to Dashboard</button>
+    <h2 id="viewerTitle">Service</h2>
+  </div>
+  <iframe id="serviceFrame" title="Service Viewer" allow="fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  <p id="frameFallback" hidden>This website cannot open inside the app. <a id="externalLink" href="#" target="_blank" rel="noopener">Open externally</a></p>
+</section>
+
+<div id="mod"><div class="mb"><div class="mh"><h3 id="modTitle"></h3><button id="modClose" aria-label="Close">×</button></div><div id="modBody"></div></div></div>
+<div id="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

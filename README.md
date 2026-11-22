@@ -32,7 +32,6 @@ SR-Infinity-Super-App/
 ├── README.md
 │
 └── assets/
-    └── icons/
         ├── icon-192.png
         ├── icon-512.png
         └── favicon.png

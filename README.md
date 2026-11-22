@@ -76,4 +76,4 @@ All your digital services in one place.
 
 ---
 
-© 2026 SR Infinity. All Rights Reserved.
+© 2026 SR Infinity. All rights reserved. See LICENSE.

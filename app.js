@@ -13,7 +13,7 @@ const modules = [
   { id: "browser", name: "Web Browser", lines: ["Browse Websites", "Inside App"], icon: "globe", color: 2, active: false },
   { id: "image", name: "Image Tools", lines: ["Edit & Convert", "Images"], icon: "image", color: 3, active: false },
   { id: "pdf", name: "PDF Tools", lines: ["Create & Edit", "PDF Files"], icon: "pdf", color: 4,
-    url: "https://shohelrana15.github.io/my-services/", active: true }
+    url: "https://www.camscanner.com/file/recent?login_type=home&login_from_part=CSOfficialHome&login_from=tab_click", active: true }
 ];
 
 

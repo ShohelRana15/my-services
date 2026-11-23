@@ -14,7 +14,8 @@ const modules = [
   { id: "tools", name: "All Tools", lines: ["Calculators &", "More Tools"], icon: "tools", color: 2, url: "" },
   { id: "image", name: "Image Tools", lines: ["Edit & Convert", "Images"], icon: "image", color: 3, active: false },
   // Scanner Tools: to activate it, paste your website link into url (keep the quotes), e.g. url: "https://your-site.com/"
-  { id: "scanner", name: "Scanner Tools", lines: ["Scan Documents", "& Images"], icon: "scan", color: 4, url: "" }
+  { id: "scanner", name: "Scanner Tools", lines: ["Scan Documents", "& Images"], icon: "scan", color: 4, 
+    url: "https://www.camscanner.com/file/recent", active: true }
 ];
 
 const IC = {

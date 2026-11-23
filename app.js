@@ -13,7 +13,8 @@ const modules = [
   { id: "browser", name: "Web Browser", lines: ["Browse Websites", "Inside App"], icon: "globe", color: 2, active: false },
   { id: "image", name: "Image Tools", lines: ["Edit & Convert", "Images"], icon: "image", color: 3, active: false },
   // Scanner Tools: to activate it, paste your website link into url (keep the quotes), e.g. url: "https://your-site.com/"
-  { id: "scanner", name: "Scanner Tools", lines: ["Scan Documents", "& Images"], icon: "scan", color: 4, url: "" }
+  { id: "scanner", name: "Scanner Tools", lines: ["Scan Documents", "& Images"], icon: "scan", color: 4, 
+    url: "https://www.camscanner.com/file/recent?login_type=home&login_from_part=CSOfficialHome&login_from=tab_click", active: true }
 ];
 
 const IC = {
